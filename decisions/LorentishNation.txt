@@ -33,7 +33,7 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 67	# Lorentaine
-				province_id = 74	# Kyliande
+				province_id = 133	# Kyliande
 				province_id = 69	# Rewanfork
 				province_id = 61	# Lorenith
 				province_id = 68	# Redfort
@@ -45,7 +45,7 @@ country_decisions = {
 		}
 		allow = {
 			owns_core_province = 67	# Lorentaine
-			owns_core_province = 74	# Kyliande
+			owns_core_province = 133	# Kyliande
 			owns_core_province = 69	# Rewanfork
 			owns_core_province = 61	# Lorenith
 			owns_core_province = 68	# Redfort

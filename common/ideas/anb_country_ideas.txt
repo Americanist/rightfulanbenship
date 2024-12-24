@@ -132,8 +132,9 @@ A02_ideas = {
 #Redglades ideas
 A03_ideas = {
 	start = {
-		defensiveness = 0.15
+		discipline = 0.05
 		manpower_in_own_culture_provinces = 0.25
+		defensiveness = 0.15
 	}
 	bonus = {
 		advisor_pool = 1
@@ -145,10 +146,10 @@ A03_ideas = {
 	free = yes		#will be added at load.
 
 	A03_ioriel_accords = {
-		stability_cost_modifier = -0.15
+		stability_cost_modifier = -0.10
 	}
 	A03_gladewatch = {
-		discipline = 0.05
+		war_exhaustion = -0.02
 	}
 	A03_aelantir_wrought_fabrics = {
 		production_efficiency = 0.10
@@ -157,10 +158,10 @@ A03_ideas = {
 		hostile_attrition = 1.0
 	}
 	A03_voice_of_the_rose_throne = {
-		improve_relation_modifier = 0.20
+		improve_relation_modifier = 0.15
 	}
 	A03_sculpting_the_forest = {
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	A03_legacy_of_ioriel = {
 		prestige = 1
@@ -39097,9 +39098,6 @@ R78_ideas = {
 		province_warscore_cost = -0.15
 	}
 	R78_sir_ekata = {
-		horde_unity = 1
-		legitimacy = 1
-		devotion = 1
 		republican_tradition = 0.3
 	}
 	R78_first_port_of_the_yan = {
@@ -42195,7 +42193,7 @@ R99_ideas = {
 	}
 	
 	bonus = {
-		core_creation = -0.15
+		core_creation = 0.1
 	}
 	
 	trigger = {

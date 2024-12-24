@@ -23,7 +23,7 @@ restructuring_military = {
 	# hostile_attrition = 1
 # }
 
-elven_administration = {
+	elven_administration = {
 	#Elven administrations are marked with otherworldly brilliance, with an ancient and respected lineage that guarantees enamouration (or envy) from all races of the world.\nHowever, due to this elves can be seen as rigid and unchanging, very much favouring the status quo: after all, it has worked for thousands of years before so why not now? You have all the time in the world to obtain knowledge so what's the rush? 
 	#Gameplay: A diplomatic country thats has a economic good backbone - but really backwards to new ideas and gets tired of war quickly
 
@@ -58,14 +58,14 @@ elven_military = {
 	#Gameplay: A very powerful and swift military that shines when its drilled and well-trained, however they replenish very slowly so its best to pick your battles
 
 	#Positives
-	discipline = 0.1					#2 SS / only disc in the game, makes them good throughout 
+	discipline = 0.2					#2 SS / only disc in the game, makes them good throughout 
 	drill_decay_modifier = -0.25	#1.5 A / to promote idea of well-trained army that you dont lose 
 	drill_gain_modifier = 1			#1 B / to promote drilling gameplay
 	movement_speed = 0.15			#1.5 C / swift elves
-	army_tradition_decay = -0.01 	#1 B / long lives - long to forget
+	army_tradition_decay = -0.02 	#1 B / long lives - long to forget
 	
 	navy_tradition_decay = -0.02 	#2 B / long lives - long to forget
-	light_ship_power = 0.1			#1 E / for their unified time in the remnant fleet
+	light_ship_power = 0.20			#1 E / for their unified time in the remnant fleet
 	naval_attrition = -0.25			#1 D / for their unified time in the remnant fleet
 	
 	
@@ -75,9 +75,9 @@ elven_military = {
 	war_exhaustion_cost = 0.5		#-2 D / elves get weary of war quickly as they dont want to - its a big deal
 	manpower_recovery_speed = -0.5	#-5 B / very slow reproduction - worst in game
 	reinforce_speed = -0.33			#-2 B / elves are slow to rally
-	mercenary_discipline = -0.1 	#		imagine hiring human mercs as elven mil lol
-	merc_maintenance_modifier = 0.3 # 		you're essentially using human mercs as cannon fodder, they're gonna want good pay
-	mercenary_manpower = -0.5		#-2 C / not a lot of elf mercs and less reliant on mercs in generals (too snobby) - re-eveluate after new patch
+	mercenary_discipline = -0.05	#		imagine hiring human mercs as elven mil lol
+	merc_maintenance_modifier = 0.20 # 		you're essentially using human mercs as cannon fodder, they're gonna want good pay
+	mercenary_manpower = -0.4		#-2 C / not a lot of elf mercs and less reliant on mercs in generals (too snobby) - re-eveluate after new patch
 	
 	sailors_recovery_speed = -0.25	#-2 B / slow reproduction
 	
@@ -357,30 +357,41 @@ goblin_military = {
 half_elven_administration = {
 	#Positives
 	diplomatic_reputation = 1
-	diplomatic_upkeep = 1
+	diplomatic_upkeep = 3
 	improve_relation_modifier = 0.2
 	diplomatic_annexation_cost = -0.2 
-	all_power_cost = -0.01
 	#Negatives
-	core_creation = 0.1
+	core_creation = 0.15
 	reform_progress_growth = -0.1 
 	unjustified_demands = 0.1
 	max_absolutism = -10  
 }
 
 half_elven_military = {
-	#Positives
-	army_tradition = 0.5
-	navy_tradition = 0.5
-	morale_damage_received = -0.1
-	leader_land_fire = 1
-	leader_siege = 1
-	general_cost = -0.15
-	admiral_cost = -0.1  
-	#Negatives
-	land_forcelimit_modifier = -0.15
-	global_manpower_modifier = -0.10
-	global_regiment_cost = 0.05 
+#just half of what elves get
+    discipline = 0.1                    #2 SS / only disc in the game, makes them good throughout 
+    drill_decay_modifier = -0.12    #1.5 A / to promote idea of well-trained army that you dont lose 
+    drill_gain_modifier = 0.5            #1 B / to promote drilling gameplay
+    movement_speed = 0.05           #1.5 C / swift elves
+    army_tradition_decay = -0.01     #1 B / long lives - long to forget
+
+    navy_tradition_decay = -0.01     #2 B / long lives - long to forget
+    light_ship_power = 0.10           #1 E / for their unified time in the remnant fleet
+    naval_attrition = -0.15            #1 D / for their unified time in the remnant fleet
+
+    #Negatives
+	war_exhaustion_cost = 0.25		#-2 D / elves get weary of war quickly as they dont want to - its a big deal
+	manpower_recovery_speed = -0.25#-5 B / very slow reproduction - worst in game
+	reinforce_speed = -0.15		#-2 B / elves are slow to rally
+	merc_maintenance_modifier = 0.10 # 		you're essentially using human mercs as cannon fodder, they're gonna want good pay
+	mercenary_manpower = -0.2		#-2 C / not a lot of elf mercs and less reliant on mercs in generals (too snobby) - re-eveluate after new patch
+	
+	sailors_recovery_speed = -0.1	#-2 B / slow reproduction
+	
+	
+	#0.8 + 3.75 + 1.5 + 1 + 1.5 = 8.55
+	
+	picture = "racial_mil_elf"
 
 }
 

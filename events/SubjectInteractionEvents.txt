@@ -23,7 +23,10 @@ country_event = {
 		government = monarchy
 		has_new_dynasty = yes
 		is_subject = yes
+		# should never be true, removed event
+		tag = ENG
 		overlord = {
+			tag = ENG
 			dynasty = ROOT
 			NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_sent_help } }
 			NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_refused_send_help } }
@@ -2199,7 +2202,10 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
+		# trigger should never be true in anbennar
+		tag = eng
 		overlord = {
+			tag = eng
 			num_of_cities = 2
 			any_owned_province = {
 				controlled_by = THIS

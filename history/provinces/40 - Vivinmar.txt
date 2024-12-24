@@ -4,15 +4,15 @@
 owner = Z05
 controller = Z05
 add_core = Z05
-add_core = A78
+add_core = A87
 culture = roilsardi
 religion = regent_court
 
 hre = yes
 
 base_tax = 3
-base_production = 3
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 
 trade_goods = cloth
 capital = ""

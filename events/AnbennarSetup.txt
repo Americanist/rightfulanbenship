@@ -652,7 +652,8 @@ country_event = {
 		if = {
 			limit = {
 				culture_is_half_elven = yes
-			}
+				NOT = { tag = A01 }
+			}	
 			add_country_modifier = {
 				name = half_elven_administration
 				duration = -1
@@ -660,6 +661,23 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = half_elven_military
+				duration = -1
+				hidden = yes
+			}
+		}
+		#lorrent
+		if = {
+			limit = {
+				culture_is_half_elven = yes
+				tag = A01
+			}
+			add_country_modifier = {
+				name = half_elven_administration
+				duration = -1
+				hidden = yes
+			}
+			add_country_modifier = {
+				name = human_military
 				duration = -1
 				hidden = yes
 			}
